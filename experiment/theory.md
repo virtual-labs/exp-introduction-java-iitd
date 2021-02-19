@@ -1,4 +1,4 @@
-### INTRODUCTION<br>
+
 **1.1 Introduction**
 
 JAVA was developed by Sun Microsystems Inc in 1991, later acquired by Oracle Corporation. It was developed by James Gosling and Patrick Naughton. It is a simple programming language.  Writing, compiling and debugging a program is easy in java.  It helps to create modular programs and reusable code.
