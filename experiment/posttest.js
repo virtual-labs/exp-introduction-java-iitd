@@ -80,29 +80,29 @@
 
 const myQuestions = [
   {
-    question: "Q1. HTML document consists __________ tag.",
+    question: "Q1. Which of the following is a Text Editor?",
     answers: {
-      a: "‹head›",
-      b: "‹body›",
-      c: "Both",
-      d: "None"
+      a: "Notepad++",
+      b: "Notepad",
+      c: "Sublime",
+      d: "All of the above"
     },
-    correctAnswer: "c"
+    correctAnswer: "d"
   },
 
   {
-    question: "Which extention is used for saving an html document?",
+    question: "Q2. Which extention is used for saving a java program?",
     answers: {
-      a: "web",
-      b: "docx",
-      c: "html",
-      d: "ppt"
+      a: "program",
+      b: "class",
+      c: "exe",
+      d: "java"
     },
-    correctAnswer: "c"
+    correctAnswer: "d"
   },
 
   {
-    question: "‹body› consists the content of our web page. State True or False.",
+    question: "Q3. Println() is the method of PrintStream class. State True or False.",
     answers: {
       a: "True",
       b: "False"        
@@ -111,7 +111,7 @@ const myQuestions = [
   },
 
 {
-    question: "Bold and Italic tags are used to emphasize the text in the HTML web page. State True or False.",
+    question: "Q4. Java is pure object oriented programming language. State True or False.",
     answers: {
       a: "True",
       b: "False"        
@@ -120,12 +120,12 @@ const myQuestions = [
   },
 
 {
-    question: "Which tag is used for largest heading?",
+    question: "Q5. System is a _________ class.",
     answers: {
-      a: "‹h1›",
-      b: "‹h6›",
-      c: "‹large›",
-      d: "‹big›"
+      a: "Final",
+      b: "Abstract",
+      c: "Static",
+      d: "Concrete"
     },
     correctAnswer: "a"
   },
