@@ -93,10 +93,10 @@ const myQuestions = [
   {
     question: "Which extention is used for saving an html document?",
     answers: {
-      a: ".web",
-      b: ".docx",
-      c: ".html",
-      d: ".ppt"
+      a: "web",
+      b: "docx",
+      c: "html",
+      d: "ppt"
     },
     correctAnswer: "c"
   },
@@ -124,7 +124,7 @@ const myQuestions = [
     answers: {
       a: "‹h1›",
       b: "‹h6›",
-      c: "‹large›,"
+      c: "‹large›",
       d: "‹big›"
     },
     correctAnswer: "a"
