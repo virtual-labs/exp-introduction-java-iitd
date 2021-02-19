@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### The aim of the experiment is to demonstrate working of basic core java program and create basic java programs using proper syntax.
