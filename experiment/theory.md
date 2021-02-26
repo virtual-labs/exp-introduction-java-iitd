@@ -45,7 +45,7 @@ public class FirstJavaProgram {<br>
 This is the first line of our java program. Every java application must have at least one class definition that consists of class keyword followed by class name. A java file can have any number of classes but it can have only one public class and the file name should be same as public class name.
 
 public static void main(String[] args)  {<br>
-This is our next line in the program, lets break it down to understand it:
+This is our next line in the program, lets break it down to understand it:<BR>
 *public:* This makes the main method public that means that we can call the method from outside the class.
 
 *static:* We do not need to create object for static methods to run. They can run itself.
