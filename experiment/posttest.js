@@ -93,10 +93,10 @@ const myQuestions = [
   {
     question: "Q2. Which extention is used for saving a java program?",
     answers: {
-      a: "program",
-      b: "class",
-      c: "exe",
-      d: "java"
+      a: ".program",
+      b: ".class",
+      c: ".exe",
+      d: ".java"
     },
     correctAnswer: "d"
   },
