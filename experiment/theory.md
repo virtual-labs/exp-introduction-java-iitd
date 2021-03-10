@@ -5,7 +5,7 @@ JAVA was developed by Sun Microsystems Inc in 1991, later acquired by Oracle Cor
 
 ### 1.2 Main Features of JAVA
 
-### Java is a platform independent language
+Java is a platform independent language
 
 Compiler(javac) converts source code (.java file) to the byte code(.class file).JVM executes the bytecode produced by compiler. This byte code can run on any platform such as Windows, Linux, Mac OS etc. Which means a program that is compiled on windows can run on Linux and vice-versa. Each operating system has different JVM, however the output they produce after execution of bytecode is same across all operating systems. That is why we call java as platform independent language.
 
