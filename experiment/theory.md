@@ -1,27 +1,27 @@
 
-**1.1 Introduction**
+1.1 Introduction
 
 JAVA was developed by Sun Microsystems Inc in 1991, later acquired by Oracle Corporation. It was developed by James Gosling and Patrick Naughton. It is a simple programming language.  Writing, compiling and debugging a program is easy in java.  It helps to create modular programs and reusable code.
 
-**1.2 Main Features of JAVA**
+1.2 Main Features of JAVA
 
-**Java is a platform independent language**
+Java is a platform independent language
 
 Compiler(javac) converts source code (.java file) to the byte code(.class file).JVM executes the bytecode produced by compiler. This byte code can run on any platform such as Windows, Linux, Mac OS etc. Which means a program that is compiled on windows can run on Linux and vice-versa. Each operating system has different JVM, however the output they produce after execution of bytecode is same across all operating systems. That is why we call java as platform independent language.
 
-**Java is an Object Oriented language**
+Java is an Object Oriented language
 
 Object oriented programming is a way of organizing programs as collection of objects, each of which represents an instance of a class.
 
 4 main concepts of Object Oriented programming are: Abstraction, Encapsulation, Inheritance  and Polymorphism 
 
 
-**1.3 Java is distributed**
+1.3 Java is distributed
 
 Using java programming language we can create distributed applications. RMI(Remote Method Invocation) and EJB(Enterprise Java Beans) are used for creating distributed applications in java. In simple words: The java programs can be distributed on more than one systems that are connected to each other using internet connection. Objects on one JVM (java virtual machine) can execute procedures on a remote JVM.
 
 
-**1.4 Java Virtual Machine (JVM)**
+1.4 Java Virtual Machine (JVM)
 
 Java is a high level programming language. A program written in high level language cannot be run on any machine directly. First, it needs to be translated into that particular machine language. The javac compiler does this thing, it takes java program (.java file containing source code) and translates it into machine code (referred as byte code or .class file).
 
@@ -30,7 +30,7 @@ Java Virtual Machine (JVM) is a virtual machine that resides in the real machine
 The primary function of JVM is to execute the byte code produced by compiler. Each operating system has different JVM, however the output they produce after execution of byte code is same across all operating systems. Which means that the byte code generated on Windows can be run on Mac OS and vice versa. That is why we call java as platform independent language. 
 
 
-**Simple Java Program**
+Simple Java Program
 
 public class FirstJavaProgram {<br>
   public static void main(String[] args) {<br>
