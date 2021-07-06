@@ -1,58 +1,113 @@
 
-### 1.1 Introduction
+### 1.1 What is Java?
 
-JAVA was developed by Sun Microsystems Inc in 1991, later acquired by Oracle Corporation. It was developed by James Gosling and Patrick Naughton. It is a simple programming language.  Writing, compiling and debugging a program is easy in java.  It helps to create modular programs and reusable code.
+- Java is a programming language and a platform.
+> **Note** - Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.
 
-### 1.2 Main Features of JAVA
+- Java is a high level, robust, object-oriented and secure programming language.
+- Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995.
+- James Gosling is known as the father of Java.
 
-Java is a platform independent language
+  ---
+  
+### 1.2 History of java
 
-Compiler(javac) converts source code (.java file) to the byte code(.class file).JVM executes the bytecode produced by compiler. This byte code can run on any platform such as Windows, Linux, Mac OS etc. Which means a program that is compiled on windows can run on Linux and vice-versa. Each operating system has different JVM, however the output they produce after execution of bytecode is same across all operating systems. That is why we call java as platform independent language.
+- The history of Java starts with the Green Team. Java team members also known as Green Team.
+- Team initiated this project to develop a language for digital devices such as set-top boxes, televisions, etc. However, it was best suited for internet programming. Later, Java technology was incorporated by Netscape.
+* The principles for creating Java programming were:
+1. Simple 
+2. Robust
+3. Portable 
+4. Platform-independent
+5. Secured
+6. High Performance
+7. Multithreaded
+8. Architecture Neutral
+9. Object-Oriented
+10. Interpreted, and Dynamic
 
-Java is an Object Oriented language
+- Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc.
+* Following are given significant points that describe the history of Java.
 
-Object oriented programming is a way of organizing programs as collection of objects, each of which represents an instance of a class.
+1. **James Gosling**, **Mike Sheridan**, and **Patrick Naughton** initiated the Java language project in June 1991.<BR>
+2. Initially it was designed for small, embedded systems in electronic appliances like set-top boxes.<BR>
+3. Firstly, it was called **"Greentalk"** by James Gosling, and the file extension was .gt.<BR>
+4. After that, it was called Oak and was developed as a part of the Green project.
 
-4 main concepts of Object Oriented programming are: Abstraction, Encapsulation, Inheritance  and Polymorphism 
+   #### Why Java was named as "Oak"?
+  
+    Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
 
+  
+5. In 1995, Oak was renamed as "Java" because it was already a trademark by Oak Technologies.
+    #### Why Java Programming named "Java"? 
+  
+    According to James Gosling, "Java was one of the top choices along with Silk". Since Java was so unique, most of the team members preferred Java than other names.
+    Java is an island in Indonesia where the first coffee was produced (called Java coffee). It is a kind of espresso bean. Java name was chosen by James Gosling while having a     cup of coffee nearby his office.Notice that Java is just a name, not an acronym.
+  
+6. Initially developed by James Gosling at Sun Microsystems (which is now a subsidiary of Oracle Corporation) and released in 1995.
 
-### 1.3 Java is distributed
+  ---  
+  
+### 1.3 Main Features of JAVA
+  
+  #### 1. Simple
+  Java language is a simple programming language because:
+  - Java syntax is based on C++ (so easier for programmers to learn it after C++).
+  - Java has removed many complicated and rarely-used features, for example, explicit pointers, operator overloading, etc.
+  - There is no need to remove unreferenced objects because there is an Automatic Garbage Collection in Java.
+  
+  #### 2. Object-oriented
+  Java is an object-oriented programming language. Object-oriented means we organize our software as a combination of different types of objects that incorporate both data and     behavior.Basic concepts of OOPs are:
+  - Object
+  - Class
+  - Inheritance
+  - Polymorphism
+  - Abstraction
+  - Encapsulation
+  
+   #### 3. Platform Independent
+  
+- Java is platform independent because it is different from other languages like C, C++, etc. which are compiled into platform specific machines while Java is a write once, run anywhere language. A platform is the hardware or software environment in which a program runs.<BR>
 
-Using java programming language we can create distributed applications. RMI(Remote Method Invocation) and EJB(Enterprise Java Beans) are used for creating distributed applications in java. In simple words: The java programs can be distributed on more than one systems that are connected to each other using internet connection. Objects on one JVM (java virtual machine) can execute procedures on a remote JVM.
+- There are two types of platforms software-based and hardware-based. Java provides a software-based platform.<BR>
 
+- The Java platform differs from most other platforms in the sense that it is a software-based platform that runs on top of other hardware-based platforms. It has two components:
+  1. Runtime Environment
+  2. API(Application Programming Interface)<BR>
 
-### 1.4 Java Virtual Machine (JVM)
+- Java code can be executed on multiple platforms, for example, Windows, Linux, Sun Solaris, Mac/OS, etc. Java code is compiled by the compiler and converted into bytecode. This bytecode is a platform-independent code because it can be run on multiple platforms, i.e., Write Once and Run Anywhere (WORA).
+  
+   #### 4. Robust
+  Java is robust because:
+  - It uses strong memory management.
+  - There is a lack of pointers that avoids security problems.
+  - Java provides automatic garbage collection which runs on the Java Virtual Machine to get rid of objects which are not being used by a Java application anymore.
+  - There are exception handling and the type checking mechanism in Java. All these points make Java robust.
 
-Java is a high level programming language. A program written in high level language cannot be run on any machine directly. First, it needs to be translated into that particular machine language. The javac compiler does this thing, it takes java program (.java file containing source code) and translates it into machine code (referred as byte code or .class file).
+  
+   #### 5. Portable
+  Java is portable because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
+  
+   #### 6. Distributed
+  Java is distributed because it facilitates users to create distributed applications in Java. RMI and EJB are used for creating distributed applications. This feature of Java makes us able to access files by calling the methods from any machine on the internet.
+  
+   #### 7. Distributed
+  A thread is like a separate program, executing concurrently. We can write Java programs that deal with many tasks at once by defining multiple threads. The main advantage of multi-threading is that it doesn't occupy memory for each thread. It shares a common memory area. Threads are important for multi-media, Web applications, etc.
+  
+    #### 8. Dynamic
+  Java is a dynamic language. It supports the dynamic loading of classes. It means classes are loaded on demand. It also supports functions from its native languages, i.e., C and C++.Java supports dynamic compilation and automatic memory management (garbage collection).
+  
+  ---
+### 1.4 Write your first JAVA program
+  To create a simple Java program, you need to create a class that contains the main method. Let's understand the requirement first.
+  
+  #### The requirement to write JAVA program
+  For executing any Java program, the following software or application must be properly installed.
+  - Install the JDK if you don't have installed it, [download the JDK ](https://www.oracle.com/java/technologies/javase-downloads.html) and install it.
+  - Set path of the jdk/bin directory. See below how to set path of java?
+  - Create the Java program
+  - Compile and run the Java program
+  
 
-Java Virtual Machine (JVM) is a virtual machine that resides in the real machine (your computer) and the machine language for JVM is byte code. This makes it easier for compiler as it has to generate byte code for JVM rather than different machine code for each type of machine. JVM executes the byte code generated by compiler and produce output. JVM is the one that makes java platform independent.
-
-The primary function of JVM is to execute the byte code produced by compiler. Each operating system has different JVM, however the output they produce after execution of byte code is same across all operating systems. Which means that the byte code generated on Windows can be run on Mac OS and vice versa. That is why we call java as platform independent language. 
-
-
-### Simple Java Program
-
-public class FirstJavaProgram {<br>
-  public static void main(String[] args) {<br>
-    System.out.println("This is my first program in java");<br>
-  } <br>
-} 
-
-
-Lets have a closer look at the program we have written above:
-
-public class FirstJavaProgram {<br>
-This is the first line of our java program. Every java application must have at least one class definition that consists of class keyword followed by class name. A java file can have any number of classes but it can have only one public class and the file name should be same as public class name.
-
-public static void main(String[] args)  {<br>
-This is our next line in the program, lets break it down to understand it:<BR>
-*public:* This makes the main method public that means that we can call the method from outside the class.
-
-*static:* We do not need to create object for static methods to run. They can run itself.
-
-*void:* It does not return anything.
-
-*main:* It is the method name. This is the entry point method from which the JVM can run your program.
-
-*(String[] args):* Used for command line arguments that are passed as strings.
 
