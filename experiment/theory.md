@@ -104,7 +104,7 @@
   
   #### The requirement to write JAVA program
   For executing any Java program, the following software or application must be properly installed.
-  - Install the JDK if you don't have installed it, [download the JDK ](https://www.oracle.com/java/technologies/javase-downloads.html) and install it.
+  - Install the JDK if you don't have installed it, [download the JDK ](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) and install it.
   - Set path of the jdk/bin directory. See below how to set path of java?
   - Create the Java program
   - Compile and run the Java program
@@ -134,5 +134,41 @@
   - **main** represents the starting point of the program.
   - **String[] args or String args[]** is used for command linSystem.out.println() is used to print statement. Here, System is a class, out is an object of the PrintStream class, println() is a method of the PrintStream class. argument. We will discuss it in coming section.
   - **System.out.println()** is used to print statement. Here, System is a class, out is an object of the PrintStream class, println() is a method of the PrintStream class.
+
+  ---
+  ### Setting up the environment in Java
+  Here are few things which must be clear before setting up the environment
+  
+- **JDK(Java Development Kit) :** JDK is intended for software developers and includes development tools such as the Java compiler, Javadoc, Jar, and a debugger.
+- **JRE(Java Runtime Environment) :** JRE contains the parts of the Java libraries required to run Java programs and is intended for end users. JRE can be view as a subset of JDK.
+- **JVM:** JVM (Java Virtual Machine) is an abstract machine. It is a specification that provides runtime environment in which java bytecode can be executed. JVMs are available for many hardware and software platforms.
+  
+  #### Follow the given steps:
+  
+
+  - Java8 JDK is available at [Download Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html). 
+  - Click second last link for **Windows(32 bit)** and last link for **Windows(64 bit)** as highlighted below.
+  
+  ![d8](https://user-images.githubusercontent.com/71967438/125189377-6afd1300-e255-11eb-86d5-cd3110f3ed0d.png)
+  
+  - After download, run the **.exe file** and follow the instructions to install Java on your machine. Once you installed Java on your machine, you have to setup environment variable.
+   - Go to **Control Panel -> System and Security -> System**. <br>
+    Under Advanced System Setting option click on **Environment Variables** as highlighted below. 
+  
+  
+  ![d9](https://user-images.githubusercontent.com/71967438/125189468-df37b680-e255-11eb-987a-c40b5edcb602.png)
+
+  
+  - Now, you have to alter the “Path” variable under System variables so that it also contains the path to the Java environment. Select the **“Path”** variable and click on Edit button as highlighted below.
+  
+  ![d10](https://user-images.githubusercontent.com/71967438/125189499-01313900-e256-11eb-9d77-230c982e874b.png)
+  
+  - You will see list of different paths, click on New button and then add path where java is installed. By default, java is installed in **“C:\Program Files\Java\jdk\bin”** folder OR **“C:\Program Files(x86)\Java\jdk\bin”**. In case, you have installed java at any other location,then add that path. 
+  
+  ![d11](https://user-images.githubusercontent.com/71967438/125189533-3178d780-e256-11eb-9c8e-5f031c4ff83d.png)
+  
+  - Click on **OK**, Save the settings and you are done !! Now to check whether installation is done correctly, open command prompt and type **javac -version**. You will see that java is running on your machine.
+  - In order to make sure whether compiler is setup, type **javac** in command prompt. You will see a list related to javac.
+
 
 
